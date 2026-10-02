@@ -18,6 +18,7 @@ namespace cs_homeworks
             bank x = bank.Current;
             Console.WriteLine($"Счет {x}");
             
+
             Console.ReadKey();
         }
     }
