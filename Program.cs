@@ -17,11 +17,14 @@ namespace cs_homeworks
             char[] chars = stroka.ToCharArray();
             for (int i = 0; i < chars.Length; i++)
             {
-                chars[i] = char.ToLower(chars[i]);
-            }
-                else if (char.IsLower(chars[i])
+                if (char.IsUpper(chars[i]))
                 {
-                chars[i] = char.ToUpper(chars[i]);
+                    chars[i] = char.ToLower(chars[i]);
+                }
+                else if (char.IsLower(chars[i]))
+                {
+                    chars[i] = char.ToUpper(chars[i]);
+                }
             }
             string result = new string(chars);
             Console.WriteLine($"Результат: {result}");
