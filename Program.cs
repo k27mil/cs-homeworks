@@ -12,7 +12,8 @@ namespace cs_homeworks
         static void Main(string[] args)
         {
             int x = int.Parse(Console.ReadLine());
-            double y = 
+            double radians = x * (Math.PI / 180);
+            Console.WriteLine(Math.Cos(radians));
 
             Console.ReadKey();
         }
