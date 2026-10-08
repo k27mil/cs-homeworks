@@ -10,7 +10,10 @@ namespace cs_homeworks
     {
         static void Main(string[] args)
         {
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Вы ввели {x}");
 
+            Console.ReadKey();
         }
     }
 }
