@@ -10,7 +10,7 @@ namespace cs_homeworks
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(2.71);
+            Console.WriteLine(Math.Round(Math.E, 2));
 
             Console.ReadKey();
         }
