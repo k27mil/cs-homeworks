@@ -10,7 +10,12 @@ namespace cs_homeworks
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Мир Труд Май");
+            Console.WriteLine("Мир");
+            Console.WriteLine("   Труд");
+            Console.WriteLine("        Май");
 
+            Console.ReadKey();
         }
     }
 }
