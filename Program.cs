@@ -10,7 +10,9 @@ namespace cs_homeworks
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(2.71);
 
+            Console.ReadKey();
         }
     }
 }
