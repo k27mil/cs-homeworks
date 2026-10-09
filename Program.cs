@@ -10,7 +10,12 @@ namespace cs_homeworks
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите ваше имя");
+            string x = Console.ReadLine();
+            Console.WriteLine(x);
+            Console.WriteLine($"Привет, {x}!");
 
+            Console.ReadKey();
         }
     }
 }
