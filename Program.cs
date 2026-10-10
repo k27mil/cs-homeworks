@@ -63,8 +63,9 @@ namespace cs_homeworks
                 case "Bike gang member": Console.WriteLine("Moonshine"); break;
                 case "Politician": Console.WriteLine("Your tax dollars"); break;
                 case "Rapper": Console.WriteLine("Cristal"); break;
-                case "anything else": Console.WriteLine("beer"); break;
+                default: Console.WriteLine("beer"); break;
             }
+            Console.ReadKey();
         }
         
     }
