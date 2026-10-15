@@ -8,6 +8,10 @@ namespace cs_homeworks
 {
     internal class Program
     {
+        static int finobachi(int n)
+        {
+            if (n == 0) return 
+        }
         static void Main(string[] args)
         {
 
