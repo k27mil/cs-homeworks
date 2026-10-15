@@ -10,7 +10,8 @@ namespace cs_homeworks
     {
         static int finobachi(int n)
         {
-            if (n == 0) return 
+            if (n == 0) return 0;
+            int nx = 
         }
         static void Main(string[] args)
         {
