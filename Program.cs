@@ -8,14 +8,15 @@ namespace cs_homeworks
 {
     internal class Program
     {
-        static int finobachi(int n)
+        static int finobacci(int k)
         {
-            if (n == 0) return 0;
-            int nx = 
+            if (k == 1 || k == 2) return 1;
+            return finobacci(k - 1) + finobacci(k - 2);
+            
         }
         static void Main(string[] args)
         {
-
+            Console.WriteLine(finobacci(4));
         }
     }
 }
