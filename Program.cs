@@ -10,6 +10,10 @@ namespace cs_homeworks
     {
         static int Factorial(int x)
         {
+            if (x < 0)
+            {
+                throw new Exception("нельзя отрицательные");
+            }
             if (x <= 1)
             {
                 return 1;
