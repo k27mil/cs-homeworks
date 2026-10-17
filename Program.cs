@@ -38,10 +38,10 @@ namespace cs_homeworks
 
         static void Main(string[] args)
         {
-            ded d1 = new ded { name = "Daun", level = grubost.hight, phrasess = new[] { "Суки!", "Прщститутки!", "ЧМО!" } };
-            ded d2 = new ded { name = "Daun2", level = grubost.hight, phrasess = new[] { "Суки!", "Прщститутки!", "hello!" } };
+            ded d1 = new ded { name = "Daun", level = grubost.hight, phrasess = new[] { "Суки!", "Проститутки!", "ЧМО!" } };
+            ded d2 = new ded { name = "Daun2", level = grubost.hight, phrasess = new[] { "Суки!", "Проститутки!", "hello!" } };
 
-            string[] badwordss = { "Суки!", "Прщститутки!", "ЧМО!" };
+            string[] badwordss = { "Суки!", "Проститутки!", "ЧМО!" };
 
             ded.CheckBadWords(ref d1, badwordss);
             ded.CheckBadWords(ref d2, badwordss);
