@@ -10,8 +10,6 @@ namespace cs_homeworks
     {
         static int NOD(int a, int b)
         {
-            a = Math.Abs(a);
-            b = Math.Abs(b);
             while (b != 0)
             {
                 int r = a % b;
@@ -23,6 +21,9 @@ namespace cs_homeworks
         }
         static int NOD(int a, int b, int c)
         {
+            a = Math.Abs(a);
+            b = Math.Abs(b);
+            c = Math.Abs(c);
             return NOD(NOD(a, b), c);
         }
         static void Main(string[] args)
